@@ -3,6 +3,8 @@ import Counter from "./Counter";
 import Team from "./Team";
 import Users from "./Users";
 import Post from "./Post";
+import CoreConcepts from "./CoreConcepts";
+import Album from "./Album";
 
 function App() {
   function handleClick() {
@@ -21,7 +23,9 @@ function App() {
       {/* <Counter /> */}
       {/* <Team /> */}
       {/* <Users /> */}
-      <Post />
+      {/* <Post /> */}
+      <CoreConcepts />
+      <Album />
     </>
   );
 }
